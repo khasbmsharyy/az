@@ -92,3 +92,91 @@ background-image: url(https://up6.cc/2023/01/16738239819832.gif);
 color: transparent !important;
 background-size: 100% 100%;
 margin-top: -5px;}`);
+
+
+$(`<style>#mic.tiir-shlwa3 .mic {border: 2px solid;border-image: linear-gradient(var(--angle), #e18b18 0%, #000 29%, #cc8321 67%, #020202 100%) 1;animation: 5s rotate linear infinite;--angle: 0deg;background-color: #e3e3e3;border-radius: 5px !important;margin: 2px;margin-top: 1px;box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%), 0 0px 1px #ffffff;height: 48px;}@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}</style>`).insertBefore('body');
+$("style").last().append(`
+#users.Services1 .inroom.uzr {
+  border-radius: 10px 0px 10px 0px;
+  background-size: cover;
+}
+#d0.Services1 .label-primary {
+  border: 1px solid #ADD8e6 !important;
+  border-radius: 10px 0px 10px 0px !important;
+}
+#room.Services1 .btn-primary {
+  border: 1px solid #ADD8e6 !important;
+  border-radius: 10px 0px 10px 0px !important;
+}
+
+#users.Services1 .inroom.uzr img.ustat {
+  width: 5px !important;
+  border-radius: 10px 0px 15px 0px;
+  height: 5px;
+  margin-top: -1px;
+  min-height: 0% !important;
+}
+#users.Services1 .inroom.uzr .fitimg.u-pic {
+  border-radius: 10px 0px 10px 0px;
+margin-top: 0px;
+z-index: 0;
+margin-left: -51px;
+min-width: 50px;
+width: 50px;
+min-height: 48px;
+max-height: 50px;
+}
+#d2.Services1 .uzr .fitimg.u-pic{
+border:1px solid #ADD8e6;
+margin-top:2px;
+border-radius: 10px 0px 10px 0px;
+box-shadow: inset 0 0 0 rgba(0,0,0,.08),0 0 2px #add8e6;}
+#users.tiir-shlwa1 .inroom.uzr .u-msg{
+-webkit-text-fill-color: #555;
+}
+#users.Services1 .inroom.uzr span.uhash{
+text-transform:uppercase;
+background-image: linear-gradient(-225deg,#7b7b7b 0,#737373 29%,#add8e6 67%,#996013 100%);
+background-size:220% auto;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;animation:2s linear infinite textclip;
+display:inline-block}#users.tiir-shlwa1 .inroom.uzr img.co{transform:rotate(20deg);margin-top:2px!important}
+#d2.Services1 .uzr.d-flex.mm{
+border-radius: 20px 0px 20px 0px;
+border:1px solid #fffefe;
+border-bottom:1px solid #fffefe}
+#rooms.tiir-shlwa1 button.fa.fa-sign-out.fl.btn.btn-primary {
+background-image: url(https://up6.cc/2025/01/173792913541451.jpg);
+  background-size: 100% 100%;
+}
+
+`);
+
+
+var r_tiirshlwa = false;
+setInterval(function () {
+    if (myroom == '5oelw3h11o') {
+        if (r_Services == false) {
+            r_Services = true;
+            $('#users').addClass('Services1');
+            $('#d2').addClass('Services1');
+            $('#mic').addClass('Services1');
+        }
+    } else {
+        if (r_Services == true) {
+            r_Services = false;
+            $("#users").removeClass('Services1');
+            $("#d2").removeClass('Services1');
+            $('#mic').removeClass('Services1');
+        } 
+    } 
+}, 10);
