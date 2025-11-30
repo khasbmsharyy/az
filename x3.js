@@ -5921,5 +5921,6 @@ var room_pic = null;
           break;
       }
     });
+    
   }
 })();
